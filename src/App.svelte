@@ -1,5 +1,9 @@
 <main>
-	<h1>svelte-typewriter-transition</h1>
+	<h1>
+		<a href="https://github.com/zyxd/svelte-typewriter-transition">
+			svelte-typewriter-transition
+		</a>
+	</h1>
 	{#if text_1}
 		<h2
 			in:typewriter={{speed: 100, separator: '\n'}}
@@ -90,6 +94,10 @@
 
 	h3 {
 		font-size: 1.0rem;
+	}
+
+	a {
+		color: inherit;
 	}
 
 	@media (min-width: 640px) {

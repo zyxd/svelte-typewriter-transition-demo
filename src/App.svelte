@@ -75,9 +75,8 @@
 
 <style>
 	main {
-		text-align: center;
 		padding: 1em;
-		max-width: 240px;
+		max-width: 50rem;
 		margin: 0 auto;
 	}
 
@@ -86,6 +85,7 @@
 		text-transform: uppercase;
 		font-size: 2rem;
 		font-weight: 100;
+		text-align: center;
 	}
 
 	h2 {
@@ -98,11 +98,5 @@
 
 	a {
 		color: inherit;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 </style>
